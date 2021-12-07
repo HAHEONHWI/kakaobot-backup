@@ -1,9 +1,9 @@
 var key, pw, mail;
 key = "97debdabc1dbd9282f6c9f688b38960b";
-mail = "heonhwi10";
-pw = "honey1004";
+mail = "메일";
+pw = "비번";
     const { KakaoLinkClient } = require('kakaolink');
-const Kakao = new KakaoLinkClient(key,"http://pf.kakao.com");
+const Kakao = new KakaoLinkClient(key,"사이트");
 var cm = Api.getContext().getSystemService(android.content.Context.CONNECTIVITY_SERVICE);
 var net = cm.getActiveNetworkInfo();
 
